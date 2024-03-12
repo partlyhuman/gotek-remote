@@ -1,6 +1,7 @@
 \#auto_saved_files\#
 *.lck
 backups/
+production/netlist.ipc
 
 # Created by https://www.toptal.com/developers/gitignore/api/kicad,macos
 # Edit at https://www.toptal.com/developers/gitignore?templates=kicad,macos
