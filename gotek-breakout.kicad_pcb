@@ -5584,6 +5584,56 @@
 		(layer "F.SilkS")
 		(uuid "09aeb56a-223e-4ce3-9c7f-904a3bf20162")
 	)
+	(gr_line
+		(start 54.8 100.7)
+		(end 57.2 100.7)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5e32fccf-12ae-4617-9657-bb7bb55f2802")
+	)
+	(gr_line
+		(start 61 100.7)
+		(end 62.4 100.7)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "63fae743-a8e4-4d90-925d-3d4624d9da5b")
+	)
+	(gr_line
+		(start 54.8 103.3)
+		(end 57.2 103.3)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6be45937-4bd1-4314-985e-90c5f336f11a")
+	)
+	(gr_line
+		(start 81.2 106.1)
+		(end 82.8 106.1)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6cf5bab9-d9f7-4bc7-a321-e4ed8789b048")
+	)
+	(gr_line
+		(start 45.9 100.7)
+		(end 48.1 100.7)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b82bf1da-8873-41a2-b4da-8f511d7b713f")
+	)
 	(gr_rect
 		(start 113.25 40.75)
 		(end 139.25 59.25)
@@ -5594,6 +5644,46 @@
 		(fill none)
 		(layer "F.SilkS")
 		(uuid "cd53895b-72ac-4475-9065-6e79b51caaab")
+	)
+	(gr_line
+		(start 81.2 103.4)
+		(end 82.8 103.4)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "db54eb26-4ea8-4301-b643-f3e7be920665")
+	)
+	(gr_line
+		(start 69.6 105.9)
+		(end 71.5 105.9)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e44724c3-5808-4789-989c-08023397f018")
+	)
+	(gr_line
+		(start 69.5 103.3)
+		(end 71.5 103.3)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e46e7f24-56de-412b-af96-f1c99025d6b2")
+	)
+	(gr_line
+		(start 61.2 103.3)
+		(end 62.3 103.3)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fb30758f-63c5-4aa8-8752-6cdca43d796d")
 	)
 	(gr_line
 		(start 47 59)
@@ -5689,6 +5779,18 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "f0a8fd7a-8124-477b-b02f-0928e9e5ac38")
+	)
+	(gr_text "J7 CONNECTS VIA RIGHT-ANGLE 2X2\nJ8 USE DUPONT JUMPERS\nJ11 SOLDER TO UNDERSIDE OF USB-A\nOR RIGHT SIDE OF R1,R2\nOR PLUG USB MICRO"
+		(at 82.8 115.1 0)
+		(layer "B.SilkS")
+		(uuid "edcd453f-f1a5-455e-9cbe-03767e72fd3f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
 	)
 	(gr_text "JLCJLCJLCJLC"
 		(at 58.3 115.5 0)
@@ -5796,6 +5898,18 @@
 				(thickness 0.15)
 			)
 			(justify right bottom)
+		)
+	)
+	(gr_text "GOTEK ARTERY OLED/ROTARY BREAKOUT\nUNDERLINED CONNECTIONS REQUIRED"
+		(at 46 111.9 0)
+		(layer "F.SilkS")
+		(uuid "62d28f45-838c-4570-b0bd-6b14d0c8f82d")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+			(justify left bottom)
 		)
 	)
 	(gr_text "(J8)DT"
