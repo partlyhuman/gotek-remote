@@ -928,21 +928,21 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic:Conn_02x03_Counter_Clockwise"
+		(symbol "Connector_Generic:Conn_02x02_Odd_Even"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 1.27 5.08 0)
+				(at 1.27 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_02x03_Counter_Clockwise"
+			(property "Value" "Conn_02x02_Odd_Even"
 				(at 1.27 -5.08 0)
 				(effects
 					(font
@@ -968,7 +968,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, double row, 02x03, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -995,7 +995,204 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_02x03_Counter_Clockwise_1_1"
+			(symbol "Conn_02x02_Odd_Even_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 3.81 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector_Generic:Conn_02x03_Odd_Even"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 1.27 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_02x03_Odd_Even"
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_02x03_Odd_Even_1_1"
 				(rectangle
 					(start -1.27 -2.413)
 					(end 0 -2.667)
@@ -1092,7 +1289,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at 7.62 2.54 180)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -1110,7 +1307,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -1128,7 +1325,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -2.54 180)
+					(at 7.62 0 180)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -1146,7 +1343,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_5"
 						(effects
@@ -1164,7 +1361,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 2.54 180)
+					(at 7.62 -2.54 180)
 					(length 3.81)
 					(name "Pin_6"
 						(effects
@@ -1194,19 +1391,13 @@
 		(at 78.74 68.58)
 		(uuid "36e771e6-7737-4b69-9ae7-b9f8eae3ff13")
 	)
-	(wire
-		(pts
-			(xy 78.74 63.5) (xy 91.44 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a0e24d2-4db6-43ba-97d3-653aca5248c8")
+	(no_connect
+		(at 148.59 43.18)
+		(uuid "8368b05e-0039-4d50-bbed-2f15143e6d1f")
 	)
 	(wire
 		(pts
-			(xy 71.12 73.66) (xy 87.63 73.66)
+			(xy 71.12 73.66) (xy 92.71 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1216,53 +1407,23 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 66.04) (xy 91.44 66.04)
+			(xy 78.74 63.5) (xy 92.71 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2552bd7e-8b2e-4396-b74e-23a539f29caf")
+		(uuid "317b08e4-e1ab-4b0c-96d9-ebd8a35e57b2")
 	)
 	(wire
 		(pts
-			(xy 81.28 60.96) (xy 91.44 60.96)
+			(xy 78.74 66.04) (xy 92.71 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "63c79424-e5f9-4b4c-9384-157413b7aacf")
-	)
-	(wire
-		(pts
-			(xy 81.28 58.42) (xy 81.28 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aec54947-dbf1-443c-a28b-95ccad2436ae")
-	)
-	(wire
-		(pts
-			(xy 87.63 68.58) (xy 91.44 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de5bb590-4706-4369-819b-c4c4cdf6bae7")
-	)
-	(wire
-		(pts
-			(xy 87.63 73.66) (xy 87.63 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4bdb2bd-92b0-4caa-aca5-40722582e120")
+		(uuid "d082cf20-df8f-4cb1-8d60-db88a67e7033")
 	)
 	(wire
 		(pts
@@ -1276,13 +1437,33 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 58.42) (xy 81.28 58.42)
+			(xy 78.74 58.42) (xy 92.71 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ffa11d84-f603-4af6-9ac9-92de93642da9")
+	)
+	(text "Connect to J8 with jumpers"
+		(exclude_from_sim no)
+		(at 140.97 33.528 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "05c8b021-3815-44bb-a0c4-b2aced152e85")
+	)
+	(text "Mirrors J7 to its left"
+		(exclude_from_sim no)
+		(at 106.68 38.608 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "67b3e556-c18c-4fd0-896f-8088f7b15375")
 	)
 	(label "GND"
 		(at 45.72 68.58 0)
@@ -1295,8 +1476,8 @@
 		)
 		(uuid "002c4bea-71b7-448f-b2f0-91de9ba82922")
 	)
-	(label "ROT_DT"
-		(at 91.44 50.8 180)
+	(label "+3V"
+		(at 85.09 46.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1304,18 +1485,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "0f550e0e-8786-4a98-b5d4-eb0cfb69e13e")
-	)
-	(label "USB_VIN"
-		(at 45.72 63.5 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1c76e9d3-66e9-4fdc-a68f-2953582d69b1")
+		(uuid "1712649f-d424-426a-8aaa-fe1cc88f14e0")
 	)
 	(label "OLED_SCK"
 		(at 45.72 55.88 0)
@@ -1328,7 +1498,7 @@
 		)
 		(uuid "22026cd2-0176-46ec-ba6c-295476972239")
 	)
-	(label "VCC"
+	(label "+5V"
 		(at 45.72 66.04 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1361,17 +1531,6 @@
 		)
 		(uuid "29e98fbd-e7d0-435c-a23e-54b3dd481d1f")
 	)
-	(label "OLED_SCK"
-		(at 104.14 53.34 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "39a6ef94-4a55-4e38-99ee-a1ce86e023aa")
-	)
 	(label "USB_D-"
 		(at 45.72 58.42 0)
 		(fields_autoplaced yes)
@@ -1382,6 +1541,17 @@
 			(justify left bottom)
 		)
 		(uuid "498c5597-5923-444d-b090-1274ea5f2c87")
+	)
+	(label "USB_D-"
+		(at 110.49 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4b9fc825-11d3-4b86-a598-bf286c5fc92d")
 	)
 	(label "ROT_CLK"
 		(at 45.72 50.8 0)
@@ -1394,8 +1564,8 @@
 		)
 		(uuid "6fe90478-2d3c-4f46-86a9-ad35b2472f11")
 	)
-	(label "VCC"
-		(at 104.14 55.88 0)
+	(label "OLED_SDA"
+		(at 97.79 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1403,10 +1573,10 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "8fa41a2f-2aa5-41f3-bd02-9ec9b9f2d507")
+		(uuid "7af30b3a-dbda-488c-8eae-ba12cb3502fd")
 	)
-	(label "USB_VIN"
-		(at 91.44 60.96 180)
+	(label "GND"
+		(at 135.89 48.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1414,7 +1584,51 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "92d59cf2-c21b-4b86-bae7-b17e71055996")
+		(uuid "80517d87-0f4f-4bbd-8dfb-892ba285d6a6")
+	)
+	(label "GND"
+		(at 110.49 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8b4c27fd-0036-4c51-ade1-ff1b96662ac5")
+	)
+	(label "+5V"
+		(at 148.59 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9bb87ce3-1424-469f-8ea8-b1169532bd74")
+	)
+	(label "USB_D+"
+		(at 110.49 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a1811a90-b597-4b37-8fe1-90fd25b8921a")
+	)
+	(label "ROT_DT"
+		(at 135.89 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a23601c4-99f6-4b97-a5b7-0cfd7a099ece")
 	)
 	(label "ROT_DT"
 		(at 45.72 48.26 0)
@@ -1427,8 +1641,19 @@
 		)
 		(uuid "a3a1f0ce-3eea-451b-9ea9-ef248e1d3929")
 	)
-	(label "GND"
-		(at 91.44 55.88 180)
+	(label "ROT_CLK"
+		(at 148.59 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aeac199f-0ac6-41f0-90e7-ae9776555c38")
+	)
+	(label "OLED_SCK"
+		(at 85.09 44.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1436,10 +1661,10 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "b1eaaa28-7f95-43f4-a8b8-1a946a36c14a")
+		(uuid "b2c779d8-8ec7-4823-b864-5518916d3378")
 	)
 	(label "USB_D+"
-		(at 91.44 63.5 180)
+		(at 92.71 63.5 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1460,8 +1685,19 @@
 		)
 		(uuid "b9e03fde-4e59-4a1d-a3f9-265ed8443771")
 	)
+	(label "GND"
+		(at 97.79 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd6382cf-d032-4674-8cdb-a140c030df75")
+	)
 	(label "USB_D-"
-		(at 91.44 66.04 180)
+		(at 92.71 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1471,8 +1707,8 @@
 		)
 		(uuid "c25206a3-4aa8-4bc8-a23d-3f512b3c8b2c")
 	)
-	(label "OLED_SDA"
-		(at 91.44 53.34 180)
+	(label "+5V"
+		(at 110.49 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1480,10 +1716,32 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "d0b1bd3b-d6af-4c3a-ac47-a6f68360daae")
+		(uuid "ca74514d-dd87-4853-9d1b-45da2a180c7c")
+	)
+	(label "ROT_SW"
+		(at 135.89 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ea245324-34b4-4095-a503-1015fd7ad89c")
+	)
+	(label "+3V"
+		(at 45.72 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ebec212b-ccf2-498d-9678-531ffb19da8f")
 	)
 	(label "GND"
-		(at 91.44 68.58 180)
+		(at 92.71 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1493,16 +1751,98 @@
 		)
 		(uuid "f399d9dc-96bd-4f48-8db8-abdb8182732a")
 	)
-	(label "ROT_CLK"
-		(at 104.14 50.8 0)
+	(label "+5V"
+		(at 92.71 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "f76d35a7-5fa2-449b-b0f6-fb7e47dad59f")
+		(uuid "fe3501c7-f723-483e-a157-b3996f1f81d4")
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x02_Odd_Even")
+		(at 90.17 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69693c5a-a053-41ac-a147-106513c6c045")
+		(property "Reference" "J7"
+			(at 91.44 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "J7 Right Angle Connector"
+			(at 91.44 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical"
+			(at 90.17 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 90.17 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 90.17 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "46a6da0b-ca42-46fb-9a06-7f7f78d71477")
+		)
+		(pin "3"
+			(uuid "cbed797a-0e86-4629-8721-cbeac4b0fd05")
+		)
+		(pin "2"
+			(uuid "bc9e6020-cd43-444b-aa23-0361f43d81fd")
+		)
+		(pin "4"
+			(uuid "bff5e06f-3f5b-4c8d-8115-dcbb93b9c1fd")
+		)
+		(instances
+			(project "gotek-breakout"
+				(path "/b341c288-9908-489c-8721-82a569e81f5e/2f858839-97ab-4505-8bc1-6a432d3cea76"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector:USB_B_Micro")
@@ -1514,7 +1854,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "862da0eb-4d7c-4cc0-80fd-89ba92a56b31")
-		(property "Reference" "J14"
+		(property "Reference" "J12"
 			(at 71.12 50.8 0)
 			(effects
 				(font
@@ -1522,7 +1862,7 @@
 				)
 			)
 		)
-		(property "Value" "USB_B_Micro"
+		(property "Value" "USB Micro"
 			(at 71.12 53.34 0)
 			(effects
 				(font
@@ -1586,7 +1926,7 @@
 		(instances
 			(project "gotek-breakout"
 				(path "/b341c288-9908-489c-8721-82a569e81f5e/2f858839-97ab-4505-8bc1-6a432d3cea76"
-					(reference "J14")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -1603,8 +1943,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a39c1ec3-d32b-41a1-9bf9-997a59ebddf7")
-		(property "Reference" "J11"
-			(at 40.64 39.37 0)
+		(property "Reference" "J10"
+			(at 40.64 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1688,7 +2028,7 @@
 		(instances
 			(project "gotek-breakout"
 				(path "/b341c288-9908-489c-8721-82a569e81f5e/2f858839-97ab-4505-8bc1-6a432d3cea76"
-					(reference "J11")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -1696,34 +2036,31 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 96.52 63.5 0)
+		(at 115.57 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c1d53e9f-45bc-466f-8e75-432466b9c9e0")
-		(property "Reference" "J13"
-			(at 99.06 63.5 0)
+		(uuid "ee9fd0bd-8840-4bd5-8a8a-893c3abcec5c")
+		(property "Reference" "J11"
+			(at 119.38 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "USB Breakout"
-			(at 99.06 66.04 0)
+			(at 121.92 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 96.52 63.5 0)
+			(at 115.57 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1732,7 +2069,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 63.5 0)
+			(at 115.57 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1741,7 +2078,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 96.52 63.5 0)
+			(at 115.57 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1750,7 +2087,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 96.52 63.5 0)
+			(at 115.57 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1758,29 +2095,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "2846dca6-8384-40f1-bee5-73e7ecb5dc3c")
+			(uuid "a78893f7-24b3-4e67-a21b-d5395d59f375")
 		)
 		(pin "3"
-			(uuid "be2e1bb3-f66d-40ca-a092-e205e762912f")
+			(uuid "d85e0989-ca60-403a-91c4-1257cb805c07")
 		)
 		(pin "4"
-			(uuid "c8a256b6-d09c-46f3-9a5c-7762d925d072")
+			(uuid "b187d476-9ca8-4d49-bce7-14b03b63aea8")
 		)
 		(pin "2"
-			(uuid "ecaf98fb-13c0-480b-b4c2-5c980f4669ff")
+			(uuid "70955efe-1e6a-413f-85ae-03789bfc5444")
 		)
 		(instances
 			(project "gotek-breakout"
 				(path "/b341c288-9908-489c-8721-82a569e81f5e/2f858839-97ab-4505-8bc1-6a432d3cea76"
-					(reference "J13")
+					(reference "J11")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x03_Counter_Clockwise")
-		(at 96.52 53.34 0)
+		(lib_id "Connector_Generic:Conn_02x03_Odd_Even")
+		(at 140.97 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1788,16 +2125,16 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fbaf2000-784d-4bd0-bd99-1e3da5d73099")
-		(property "Reference" "J12"
-			(at 97.79 44.45 0)
+		(property "Reference" "J8"
+			(at 142.24 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Gotek 6-pin connector"
-			(at 97.79 46.99 0)
+		(property "Value" "J8 Mirror"
+			(at 142.24 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1805,7 +2142,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
-			(at 96.52 53.34 0)
+			(at 140.97 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1814,7 +2151,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 53.34 0)
+			(at 140.97 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1822,8 +2159,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 96.52 53.34 0)
+		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 140.97 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1832,7 +2169,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 96.52 53.34 0)
+			(at 140.97 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1860,7 +2197,7 @@
 		(instances
 			(project "gotek-breakout"
 				(path "/b341c288-9908-489c-8721-82a569e81f5e/2f858839-97ab-4505-8bc1-6a432d3cea76"
-					(reference "J12")
+					(reference "J8")
 					(unit 1)
 				)
 			)

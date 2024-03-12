@@ -1315,7 +1315,7 @@
 		)
 		(uuid "b02ec282-7437-4ae4-bd50-ad177799e664")
 	)
-	(label "USB_VIN"
+	(label "+5V"
 		(at 73.66 43.18 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1359,17 +1359,6 @@
 		)
 		(uuid "10533ece-5af9-42d0-9d72-01a5574b9641")
 	)
-	(label "USB_VIN"
-		(at 38.1 60.96 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1305103c-12ff-496b-8ab0-ba8b18af2942")
-	)
 	(label "OLED_SCK"
 		(at 73.66 76.2 0)
 		(fields_autoplaced yes)
@@ -1392,7 +1381,7 @@
 		)
 		(uuid "4b3d0c3f-2226-4ef8-8599-720fad873582")
 	)
-	(label "VCC"
+	(label "+5V"
 		(at 73.66 73.66 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1424,6 +1413,17 @@
 			(justify left bottom)
 		)
 		(uuid "550ed4bf-16fe-4bcc-a655-66458d0ff1ff")
+	)
+	(label "+3V"
+		(at 38.1 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d907c8a-d178-4237-b46a-699d89a2144c")
 	)
 	(label "OLED_SCK"
 		(at 38.1 68.58 0)
@@ -1491,7 +1491,7 @@
 		)
 		(uuid "bf79a58d-403d-45b2-8448-3c169b73555c")
 	)
-	(label "VCC"
+	(label "+5V"
 		(at 73.66 93.98 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1524,7 +1524,7 @@
 		)
 		(uuid "d415f927-c458-434a-8e97-6be93c2290d1")
 	)
-	(label "VCC"
+	(label "+5V"
 		(at 38.1 58.42 0)
 		(fields_autoplaced yes)
 		(effects
