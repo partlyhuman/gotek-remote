@@ -467,10 +467,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "production/dock",
+      "plot": "production/breakout/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "gotek-breakout.step",
       "svg": "",
       "vrml": ""
     },
