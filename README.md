@@ -34,7 +34,7 @@ Using header pins is possible, but I found that there's not sufficient height to
 
 Connect the FFC, put a 90° bend in it, being careful to crease and not fold all the way. Feed it through the hole left by the screen and out the front of your PC. Hook up the floppy side of things.
 
-When assembling the remote, you'll probably have to desolder the angle pins of the rotary encoder and solder in straight ones. For both the rotary encoder and the OLED screen, the boards will be connected on the right side, so place a spacer on the left side to match height for better support - I use sticky tack.
+When assembling the remote, you'll probably have to desolder the angle pins of the rotary encoder and solder in straight ones. For both the rotary encoder and the OLED screen, the boards will be connected on the right side, so place a spacer on the left side to match height for better support - I use sticky tack. Trim the excess off the header pins for a flush fit.
 
 Assemble the remote in this order:
 
@@ -42,6 +42,7 @@ Assemble the remote in this order:
 2. The remote PCB
 3. Attach the FFC now before closing the case
 4. Rear side of the case, screwing all the layers together
+5. Push on rotary shaft cap
 
 I use these options in [ff.cfg](https://github.com/keirf/flashfloppy/wiki/FF.CFG-Configuration-File#options):
 
