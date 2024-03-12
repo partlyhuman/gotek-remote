@@ -20,7 +20,7 @@ You'll need:
 * An electrolytic capacitor for the USB connector, 10uF?
 * Some M2 screws
 * The two PCBs, fab-ready gerbers are available for the [breakout](pcb/production/gotek-breakout.zip) and [remote](pcb/production/gotek-remote.zip)
-* A 3d printed case, print-ready STLs are available for the [top](3dp/Gotek Remote_Gotek Remote Dock v20_Case Top.stl) and [bottom](3dp/Gotek Remote_Gotek Remote Dock v20_Case Bottom.stl)
+* A 3d printed case, print-ready STLs are available for the [top](3dp/Gotek%20Remote_Gotek%20Remote%20Dock%20v20_Case+Top.stl) and [bottom](3dp/Gotek%20Remote_Gotek%20Remote%20Dock%20v20_Case%20Bottom.stl)
 * Optional, a 2x2 right angle female 2.54mm pitch header pin socket
 * Optional, two sticky-backed PCB standoffs 
 
