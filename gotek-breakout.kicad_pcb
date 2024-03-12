@@ -74,9 +74,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "production/dock")
 		)
 	)
 	(net 0 "")
@@ -1274,6 +1274,7 @@
 		(property "Reference" "H1"
 			(at 0 -4.2 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "b8fb6392-cb00-498f-a14b-464046c5e26f")
 			(effects
 				(font
@@ -3822,6 +3823,7 @@
 		(property "Reference" "H4"
 			(at 0 -4.2 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "4e9212ee-959e-4b04-9376-0a02b9cf335c")
 			(effects
 				(font
@@ -4794,6 +4796,7 @@
 		(property "Reference" "H3"
 			(at 0 -4.2 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "9ffbeb41-f897-4469-b2a6-72656d84cc36")
 			(effects
 				(font
@@ -4901,6 +4904,7 @@
 		(property "Reference" "H2"
 			(at 0 -4.2 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "7fc493ff-ad3c-44f1-b245-cdb3ad35e91b")
 			(effects
 				(font
