@@ -4,7 +4,8 @@ This is a device that relocates the USB, screen, and dial of a Gotek floppy driv
 
 ![The remote being used with a PC-9821](img/remote.jpg)
 
-![Closeup of the remote sitting on a keyboard](img/remote-keyboard.jpg)
+https://github.com/user-attachments/assets/1192d630-0beb-47c9-abd5-1f5b6c1d0ba6
+
 
 ## Building one
 
@@ -28,11 +29,9 @@ Assembly:
 
 ![The breakout, connected](img/gotek.jpg)
 
-Connect the underlined connections. J11 goes to the right side of R1 and R2 (in the same order, unlike this photo of an older version that had them reversed). Make an effort to have these USB jumper wires the same length, and as short as possible. The right-angle connector will make the board slip into place.
+Connect the underlined connections. J8 mirrors the headers mid-board in these revisions of the Gotek, in the same positions, only the underlined connections are needed. J11 goes to the right side of R1 and R2 (in the same order). Make an effort to have these USB jumper wires the same length, and as short as possible. Optionally, J12 goes to the bottom side of the L4 activity LED (replacing the LED). The right-angle connector will make the board slip into place.
 
-Using header pins is possible, but I found that there's not sufficient height to reassemble the Gotek case when doing so, and ended up soldering jumper wire to the pads.
-
-Connect the FFC, put a 90° bend in it, being careful to crease and not fold all the way. Feed it through the hole left by the screen and out the front of your PC. Hook up the floppy side of things.
+Connect the FFC, feed it through the hole left by the screen and out the front of your PC. Hook up the floppy side of things.
 
 When assembling the remote, you'll probably have to desolder the angle pins of the rotary encoder and solder in straight ones. For both the rotary encoder and the OLED screen, the boards will be connected on the right side, so place a spacer on the left side to match height for better support - I use sticky tack. Trim the excess off the header pins for a flush fit.
 
